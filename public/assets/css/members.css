@@ -1,0 +1,1222 @@
+.account-page .alert img {
+	max-width: 48px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.account-page .nav-controls {
+	border-top: 1px solid #eee;
+}
+.account-page .nav-controls .icon {
+	display: inline-block;
+	margin-right: 8px;
+	font-size: 18px;
+	vertical-align: text-top;
+}
+.account-page .nav-controls .nav-item {
+	font-weight: 600;
+}
+.account-page .nav-controls .nav-item .nav-link {
+	color: #555;
+	font-size: 15px;
+}
+.account-page .nav-controls .nav-item:hover,
+.account-page .nav-controls .active {
+	border-bottom: 3px solid #028dcf;
+}
+.account-page .nav-controls .nav-item:hover .nav-link,
+.account-page .nav-controls .active .nav-link {
+	color: #028dcf;
+}
+.user-profile {
+	position: relative;
+	padding-top: 20px;
+}
+.account-page .user-photo {
+	width: 120px;
+	height: 120px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 20px;
+	overflow: hidden;
+	border-radius: 3px;
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+.account-page .user-info {
+	margin-left: 140px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+.account-page .user-info .name {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+.account-page .user-info .name a {
+	font-size: 14px;
+}
+.account-page .user-info ul:after,
+.account-page .user-info ul:before {
+	content: '';
+	display: table;
+	clear: both;
+	float: none;
+}
+.account-page .user-info ul li {
+	float: left;
+	width: 50%;
+	padding: 4px 40px 4px 0px;
+	font-size: 13px;
+	color: #333;
+}
+.account-page .user-info b {
+	font-weight: 500;
+	color: #555;
+}
+.account-page .user-info ul li .icon-check {
+	color:  #28a745;
+}
+.account-page .user-info ul li .icon-delete {
+	color: #ff3500;
+}
+.account-page .user-info ul li .icon-warning {
+	color: #ff8900;
+}
+.account-page .user-info ul li .icon-facebook {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #888;
+    color: #fff;
+    vertical-align: sub;
+    line-height: 1.5;
+    text-align: center;
+}
+.account-page .user-info ul li .icon-facebook.connected {
+	background: #4267b2;
+}
+.account-page .user-info a {
+	display: inline-block;
+}
+#overview-statistics {
+	position: relative;
+	margin-bottom: 15px;
+}
+#overview-statistics .value {
+	overflow: hidden;
+}
+
+#overview-statistics .icon-click {
+	position: absolute;
+	top: 15px;
+	left: 25px;
+	font-size: 60px;
+}
+#overview-statistics .head {
+	font-size: 22px;
+	font-weight: 600;
+	padding-left: 80px;
+}
+#overview-statistics .value > div {
+	float: left;
+	width: 25%;
+}
+#overview-statistics .value-title {
+	font-size: 14px;
+	font-weight: 600;
+}
+#overview-statistics .value-detail {
+	font-size: 28px;
+	color: #007abf;
+	font-weight: 600;
+}
+.account-page .filter > form > .row+.row {
+	/*padding-top: 12px;*/
+	padding-bottom: 12px;
+	margin: 0;
+	background: #fafafa;
+	border: 1px solid #e1e1e1;
+	border-top: none;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.account-page .filter .badge-primary {
+	background: #028dcf;
+}
+.account-page .tab {
+	border-bottom: 2px solid #d1d1d1;
+
+}
+.account-page .tab .btn {
+	border-radius: 0;
+	font-size: 16px;
+	width: 180px;
+	font-weight: 600;
+	color: #555;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.account-page .tab .btn:hover {
+	color: #028dcf;
+}
+.account-page .tab .btn.active {
+	border-bottom: 2px solid #028dcf;
+	margin-bottom: -2px;
+	position: relative;
+	color: #028dcf;
+}
+.account-page .tab .manage_ads_tab {
+	display: block;
+}
+.account-page .tab .expired_ads {
+	position: absolute !important;
+	bottom: 0;
+	right: 0;
+}
+.account-page .filter .filter-right .form-inline {
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+.account-page .filter-left .form-inline > * {
+	margin-right: 20px;
+
+}
+.account-page .filter-left .form-inline > *,
+.account-page .filter-right .form-inline > * {
+	margin-top: 12px;
+}
+.account-page .filter .form-inline label {
+	padding-right: 4px;
+	font-weight: 600;
+	font-size: 14px;
+}
+.account-page .filter .filter-right .form-inline .form-control {
+	display: inline-block;
+	width: auto;
+}
+.modal .error_message {
+	font-size: 14px;
+	color: #ff3500;
+	margin-top: 4px;
+}
+.post_shortcut {
+	padding: 30px;
+}
+.post_shortcut .text {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+/* list post */
+.account-page .list_posts > li {
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+	position: relative;
+	padding: 0px 15px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.account-page .list_posts > li.add-paid-ad .save_ads_sumery  {
+	display: inline-block;
+}
+.account-page .list_posts .post_image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 220px;
+	height: 160px;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	/*overflow: hidden;*/
+}
+.account-page .list_posts .save_ads_sumery {
+	overflow: hidden;
+}
+.account-page .post_detail .list_posts p {
+	font-size: 16px;
+	margin-top: 8px;
+}
+.account-page .list_posts .save_ads_sumery dl {
+	float: left;
+	margin-bottom: 0;
+	font-size: 14px;
+	overflow: hidden;
+}
+.account-page .list_posts .save_ads_sumery dl > * {
+	float: left;
+	font-weight: normal;
+	color: #333;
+}
+.account-page .list_posts .save_ads_sumery dl {
+	margin-right: 15px;
+}
+.account-page .list_posts .save_ads_sumery dl:last-child {
+	margin-right: 0;
+}
+.account-page .list_posts .save_ads_sumery dl dd {
+	margin-left: 4px;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+.account-page .list_posts .detail_box {
+	position: relative;
+	height: 160px;
+	margin-bottom: 10px;
+}
+.account-page .list_posts .post_detail {
+	margin-left: 240px;
+	height: 160px;
+	position: relative;
+	padding-right: 30px;
+}
+.account-page .list_posts .ad_info {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.account-page .list_posts .ad_info > * {
+	display: inline-block;
+}
+.account-page .list_posts .ad_info p:before {
+	content: ':';
+	display: inline-block;
+	padding-right: 5px;
+}
+.account-page .list_posts .ad_info p {
+	margin-bottom: 0;
+	font-weight: normal;
+	color: #555;
+}
+.account-page .list_posts .title {
+	font-weight: 600;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 8px;
+	color: #333;
+}
+.account-page .list_posts .ad_price {
+	color: #ff3500;
+	font-size: 18px;
+	bottom: 0;
+	left: 0;
+	font-weight: 600;
+	position: absolute;
+}
+.account-page .list_posts .post_type {
+	position: absolute;
+    top: 10px;
+    left: -5px;
+    background: #ff8900;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 2px 8px 4px 8px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.account-page .list_posts .post_type.has-remove {
+	padding-left: 30px;
+}
+.account-page .list_posts .post_type .btn {
+	padding: 0;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: none;
+	width: 27px;
+	height: 27px;
+}
+.account-page .list_posts .post_detail p {
+	font-size: 15px;
+	color: #888;
+	margin-top: 8px;
+}
+.account-page .list_posts .post_type:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	border-right: 5px solid #bf6700;
+	border-bottom: 5px solid transparent;
+
+}
+.account-page .list_posts .active_auto_renew_date {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	background: rgba(2, 141, 207, 0.25);
+	padding: 8px 12px;
+	border-radius: 3px;
+	overflow: hidden;
+	font-size: 16px;
+	font-weight: 600;
+}
+.account-page .list_posts .active_auto_renew_date > * {
+	float: left;
+}
+.account-page .list_posts .active_auto_renew_date > *+* {
+	margin-left: 8px;
+}
+.account-page .list_posts .active_auto_renew_date button {
+	background: #fff;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	border: none;
+	color: #028dcf;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+.account-page .list_posts .active_auto_renew_date .icon-remove {
+	color: #ff3500;
+	opacity: 0.75;
+}
+.account-page .list_posts .active_auto_renew_date button:hover .icon-remove {
+	opacity: 1;
+	
+}
+.account-page .list_posts .active_auto_renew_date button * {
+	text-align: center;
+}
+.account-page .controls {
+	/*border-top: 1px solid #eee;*/
+}
+.account-page .controls .show-alert:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 8px;
+	height: 8px;
+	background: #ff3500;
+	border-radius: 50%;
+}
+.account-page .controls > *:after,
+.account-page .controls > *:before {
+	content: '';
+	display: table;
+	clear: both;
+	float: none;
+}
+.account-page .controls > * > * {
+	float: left;
+	width: 25%;
+}
+.account-page .controls a {
+	display: block;
+}
+.account-page .controls a .icon {
+	display: inline-block;
+	margin-right: 5px;
+}
+.account-page li .disabled {
+	color: #888 !important;
+}
+.account-page li .item {
+	color: #028dcf;
+	font-weight: 600;
+}
+/* confirm form */
+#delete_ad_reason .form-group label {
+	/*font-weight: 600;*/
+	font-size: 18px;
+}
+
+/* like items */
+.like-items-page ul {
+	overflow: hidden;
+	margin-left: -6px;
+	margin-right: -6px;
+}
+.like-items-page li {
+	float: left;
+	width: 25%;
+}
+.like-items-page li .item-box {
+	position: relative;
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+	margin: 6px;
+	overflow: hidden;
+}
+.like-items-page .img {
+	height: 168px;
+}
+.like-items-page .title {
+	font-size: 13px;
+	color: #333;
+	font-weight: normal;
+	line-height: 1.5;
+}
+.like-items-page .item_detail {
+	padding: 8px;
+	height: 81px;
+}
+.like-items-page .price {
+	font-size: 18px;
+	font-weight: 600;
+	color: #ff3500;
+	position: absolute;
+	left: 8px;
+	bottom: 8px;
+}
+.like-items-page .remove {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    padding: 8px;
+    display: block;
+    font-size: 18px;
+}
+.like-items-page h3 {
+	margin-bottom: 0;
+}
+
+/* setting */
+.btn-logout {
+	color: #ff3500;
+	background: #fff;
+	font-weight: 600;
+}
+.list-setting .btn-logout {
+	padding: 8px;
+	font-size: 14px;
+}
+.list-setting section {
+	display: block;
+	margin-bottom: 15px;
+}
+.list-setting .section-bar .title {
+	font-size: 13px;
+	color: #888;
+	font-weight: 600;
+	padding: 5px 0px;
+}
+.list-setting .list-items {
+	background: #fff;
+	border: 1px solid #eee;
+}
+.list-setting .list-items > ul > li+li { 
+	border-top: 1px solid #eee;
+}
+
+.list-setting .list-items a {
+	padding: 10px 15px;
+	font-size: 15px;
+	color: #333;
+}
+.list-setting .list-items a:hover {
+	color: #006190;
+}
+.list-setting .list-items .active a {
+    border-left: 2px solid #007abf;
+    color: #007abf;
+    background: rgba(0,122,191,.1);
+    font-weight: 600;
+}
+.setting-page .list-setting {
+	margin-left: -16px;
+	margin-right: -16px;
+	border: none !important;
+}
+.setting-page .list-setting .section-bar .title {
+	padding: 10px 15px;
+}
+.setting-page .list-setting  .logout-box {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.left-content {
+    border-right: 1px solid #eee;
+    background: #fafafa;
+}
+.right-content {
+	background: #fff;
+}
+.right-content #my_content {
+	padding: 0px 15px 15px 15px;
+}
+.setting-page .head {
+	border-bottom: 1px solid #eee;
+	padding: 15px 0;
+}
+.setting-page .head .title {
+	font-size: 22px;
+	margin: 0;
+}
+.setting-page .btn,
+.setting-page .form-group label {
+	font-weight: 600;
+}
+.setting-page .right-content .edit_cover {
+	margin-top: 20px;
+	position: relative;
+}
+.setting-page .right-content .img_cover {
+	height: 320px;
+	border-radius: 5px;
+	overflow: hidden;
+	border: 1px solid #e1e1e1;
+	background: #e9eef1;
+}
+#btn-upload-profile-cover {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.2);
+}
+.setting-page .right-content .img_profile {
+	text-align: center;
+	margin-top: -70px;
+	margin-bottom: 30px;
+}
+.setting-page .right-content .img_profile .pl_img {
+	position: relative;
+	z-index: 2;
+}
+.setting-page .right-content .default_image,
+.setting-page .right-content .profile-photo,
+.edit_profile .pl_loading {
+	width: 120px;
+	height: 120px;
+	display: block;
+	border-radius: 50%;
+	border: 1px solid #eeee;
+	margin: 8px auto;
+	overflow: hidden;
+}
+.setting-page #pl_del,
+#remove_cover {
+	display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    background: #fff url(../img/close.png) no-repeat center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+#remove_cover {
+	top: -8px;
+	right: -8px;
+}
+.setting-page #pl_del:hover {
+	cursor: pointer;
+}
+.edit_profile .pl_loading {
+	background: #fff url(../img/pl_loading.gif) center no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 !important;
+}
+
+.pl_img {
+	position: relative;
+}
+.setting-page .map_view {
+	position: relative;
+	border: 1px solid #eee;
+	border-radius: 3px;
+}
+.setting-page #map {
+	height: 280px;
+}
+.setting-page #find_location {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.15);
+}
+.setting-page .phone > * {
+	padding-right: 32px;
+	position: relative;
+}
+.setting-page .phone > *+* {
+	margin-top: 8px;
+}
+.setting-page .phone .add_phone {
+    font-size: 22px;
+    display: inline-block;
+    padding: 0;
+    margin-left: 5px;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: #028dcf;
+    opacity: 0.75;
+}
+.setting-page .phone .delete_phone {
+    font-size: 22px;
+    display: inline-block;
+    padding: 0;
+    margin-left: 5px;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: #ff3500;
+    opacity: 0.75;
+}
+.setting-page .col-form-label {
+	font-weight: 600;
+	font-size: 15px;
+}
+#map .centerMarker {
+    position: absolute;
+    background: url(http://maps.gstatic.com/mapfiles/markers2/marker.png) no-repeat;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    margin-left: -10px;
+    margin-top: -34px;
+    height: 34px;
+    width: 20px;
+    cursor: pointer;
+}
+
+/* notification */
+.list-notifications li {
+	display: block;
+	width: 100%;
+	background: #fff;
+	line-height: 1.2;
+	border: 1px solid #eee;
+	margin-bottom: 5px;
+	position: relative;
+}
+.list-notifications li .item {
+    padding: 10px 10px 10px 60px;
+    color: #333;
+    position: relative;
+    min-height: 62px;
+}
+.list-notifications li .item .image {
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	border: 1px solid #eee;
+}
+.list-notifications li .item .info {
+	font-size: 15px;
+	color: #333;
+	line-height: 1.5;
+	margin-bottom: 3px;
+}
+.list-notifications li .item time {
+	font-size: 11px;
+	color: #888;
+}
+.list-notifications li .item:hover {
+	background: #fafafa;
+	color: #000;
+}
+.list-notifications li.unread {
+	background: #fff;
+}
+.list-notifications li.unread .info {
+	color: #028dcf;
+	font-weight: 600;
+}
+.list-notifications li .item:hover .info {
+	color: #006190;
+}
+
+.list-notifications li.has_action .item {
+	margin-right: 300px;
+}
+.list-notifications li .actions {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.list-notifications li.no_data {
+	padding: 16px 0	;
+	text-align: center;
+	font-size: 13px;
+	color: #888;
+	display: block;
+}
+.list-notifications .detail {
+	line-height: 1;
+}
+.item-empty {
+	text-align: center;
+	font-size: 18px;
+	color: #888;
+	background: #fff;
+	border: 1px 1px solid #D5D5D5 !important;
+	padding: 60px 30px !important;
+}
+
+/* store information */
+#form-banner {
+    padding: 15px;
+    background: #f2f8fc;
+    border: 3px dashed #00acff;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+    position: relative;
+}
+#form-banner #upload_banner_box {
+	display: none;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+#form-banner.uploaded #display_banner_box,
+#form-banner.upload #upload_banner_box {
+	display: block !important;
+}
+#form-banner .image-placeholder {
+    background: url(../img/upload-banner.png) no-repeat center;
+    background-size: cover;
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#upload_banner_box .big-text {
+    font-size: 22px;
+    color: #333;
+}
+#upload_banner_box .small-text {
+    font-size: 14px;
+    color: #777;
+}
+#form-banner .btn_remove_banner {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: transparent;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: #fff url(../img/close.png) no-repeat center;
+    border-radius: 50%;
+}
+#form-banner .banner_view img {
+    max-width: 100%;
+}
+.edit_cover.loading:after,
+#upload_banner_box.loading:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f2f8fc url('../img/pl_loading.gif') no-repeat center;
+	z-index: 2;
+}
+/* statistic */
+.statistics-page .preview_ad {
+	padding: 15px;
+	position: relative;
+	border-bottom: 1px solid #eee;
+}
+.statistics-page .preview_ad .img {
+	width: 160px;
+	height: 120px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.statistics-page .preview_ad .title {
+	font-size: 22px;
+}
+.statistics-page .preview_ad .item_detail {
+    margin-left: 175px;
+    height: 120px;
+}
+.statistics-page .preview_ad .item_detail .price {
+	color: #ff3500;
+	display: inline-block;
+	margin-left: 6px;
+}
+.statistics-page .preview_ad .item_sumery {
+	overflow: hidden;
+}
+.statistics-page .preview_ad .item_sumery dt {
+	font-weight: 600;
+}
+.statistics-page .preview_ad .item_sumery dd {
+	padding-left: 6px;
+}
+.statistics-page .preview_ad .item_sumery dl,
+.statistics-page .preview_ad .item_sumery dl > * {
+	float: left;
+	margin-bottom: 0;
+	font-size: 13px;
+}
+.statistics-page .preview_ad .item_sumery dl {
+	margin-right: 20px;
+	color: #888;
+}
+.statistics-page .preview_ad .item_sumery dl > *:last-child {
+	margin-right: 0;
+}
+.statistics-page .preview_ad p {
+	margin-bottom: 0;
+	margin-top: 8px;
+	font-size: 16px;
+}
+.statistics-page .left {
+  float: left;
+}
+.statistics-page .right {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.statistics-page .list-unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.statistics-page .btn_stats {
+  margin-top: 8px;
+  font-size: 12px;
+  position: relative;
+  padding-left: 30px;
+}
+.statistics-page .btn_stats:hover {
+  border-color: inherit;
+}
+.statistics-page .btn_stats .icon {
+  font-size: 16px;
+  position: absolute;
+  left: 8px;
+  top: 5px;
+}
+.statistics-page #graph_view {
+  position: relative;
+  min-height: 300px;
+}
+.account-page .list_posts > li.loading:after,
+.statistics-page #graph_view.loading:after {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: '';
+  background: rgba(255,255,255,0.8) url('../img/loading.gif') no-repeat center;
+  z-index: 999;
+}
+.statistics-page .statistic_bar {
+  position: relative;
+  margin: 0;
+}
+.statistics-page .statistic_bar .option {
+  overflow: hidden;
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+}
+.statistics-page .statistic_bar .option li {
+  float: left;
+}
+
+.statistics-page .statistic_bar .option li a {
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
+  padding: 7px 12px;
+}
+.statistics-page .statistic_bar .option .active a,
+.statistics-page .statistic_bar .option li a:hover {
+  background: #f4f4f4;
+  text-decoration: none;
+  color: #333;
+}
+.statistics-page .statistic_bar .option .active a {
+  cursor: default;
+  pointer-events: none;
+}
+.statistics-page .statistic_bar .option li+li {
+  border-left: 1px solid #e1e1e1;
+}
+.statistics-page #daterange_box:hover {
+  cursor: pointer;
+  background: #f4f4f4;
+  color: #333;
+}
+.statistics-page #daterange_box {
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    color: rgb(51, 122, 183);
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px;
+}
+.statistics-page #daterange_box .icon {
+  display: inline-block;
+  text-align: center;
+  font-size: 8px;
+  padding-right: 8px;
+}
+.statistics-page #daterange_box .text {
+  padding: 5px 10px;
+  display: inline-block;
+}
+.statistics-page .graph_status {
+  overflow: hidden;
+  padding: 5px;
+  background: #f4f4f4;
+  margin-top: 10px;
+}
+.statistics-page .graph_status > div {
+  float: left;
+  margin-right: 30px;
+  padding: 10px 10px;
+  border-radius: 3px;
+}
+.statistics-page .graph_status .text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+.statistics-page .graph_status .num {
+	font-size: 28px;
+    color: #23527c;
+    font-weight: 500;
+}
+.statistics-page .no_result {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.statistics-page .no_result .icon {
+  font-size: 48px;
+  color: #ccc;
+}
+.statistics-page .no_result .status {
+  font-size: 22px;
+  color: #888;
+}
+@media (max-width: 480px) {
+.statistics-page .statistic_bar .left,
+.statistics-page .statistic_bar .right {
+  float: none;
+  clear: both !important;
+}
+.statistics-page .statistic_bar .right {
+  margin-top: 10px;
+}
+.statistics-page .graph_status {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.statistics-page .graph_status > div {
+  margin-right: 0px;
+}
+}
+
+#statistics_view {
+  margin: 20px;
+}
+/* cv */
+
+.list-cv-page {
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+}
+
+.list-cv-page .head {
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.list-cv-page table {
+    width: 100%
+}
+
+.list-cv-page table th {
+    background: #f4f4f4;
+    padding: 10px 16px;
+    font-size: 14px
+}
+
+.list-cv-page table tr td {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 0
+}
+
+.list-cv-page .item_sumery {
+    margin-top: 8px
+}
+
+.list-cv-page .item_sumery dl {
+    overflow: hidden;
+    float: left;
+    margin-bottom: 5px
+}
+
+.list-cv-page .item_sumery dl+dl {
+    margin-left: 20px
+}
+
+.list-cv-page .item_sumery dt,.list-cv-page .item_sumery dd {
+    float: left;
+    font-size: 13px;
+    margin-bottom: 0;
+    color: #333;
+}
+.list-cv-page .item_sumery dd {
+	padding-left: 5px;
+}
+.list-cv-page .head .btn_all_cv {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+}
+.list-cv-page .head .title {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.list-cv-page .badge {
+	font-size: 10px;
+	font-weight: 600;
+}
+.list-cv-page table .name {
+
+}
+
+.list-cv-page table .download {
+
+}
+
+.list-cv-page .cv_detail {
+    margin-left: 16px;
+    margin-right: 16px
+}
+
+.list-cv-page .cv_detail .btn {
+    margin-top: 16px
+}
+
+.list-cv-page .list-cv-box td {
+    padding-left: 16px;
+    padding-right: 16px
+}
+.item_box .list_control {
+	background: #fafafa;
+	border-top: 1px solid #eee;
+}
+
+/* connect with facebook */
+.confirm-fb-user .info {
+	font-size: 18px;
+	color: #333;
+	margin: 0px 0px 15px 0px;
+}
+.confirm-fb-user .detail {
+	position: relative;
+}
+.confirm-fb-user .user-profile {
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+.confirm-fb-user .user-detail {
+	margin-left: 100px;
+	height: 80px;
+}
+.confirm-fb-user .user-detail strong {
+	display: block;
+}
+.confirm-fb-user .user-detail .user-name {
+	font-size: 28px;
+	font-weight: 600;
+	color: #333;
+}
+.confirm-fb-user .user-detail .user-phone {
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+}
+.confirm-fb-user .btn {
+	min-width: 120px;
+}
+
+/* promote */
+#promote-modal .options {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#promote-modal .options label {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#promote-modal .options > div+div {
+	border-top: 1px solid #e1e1e1;
+}
+#promote-modal .options label .title {
+	font-size: 18px;
+	font-weight: 600;
+}
+#promote-modal .options label .pricing {
+	color: #555;
+	font-size: 14px;
+}
+#promote-modal .options label .pricing .price {
+	font-weight: 600;
+	color: #028dcf;
+	font-size: 16px;
+}
+
+.modal .post-id .title,
+.modal .post-title .title {
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+}
+.modal .post-id .value,
+.modal .post-title .value {
+	font-size: 18px;
+	color: #028dcf;
+}
+
+option.main {
+    font-weight: 700;
+    background: #e1e1e1!important;
+}

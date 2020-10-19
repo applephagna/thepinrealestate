@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+	<title>Market - Premium Multipurpose HTML5/CSS3 Theme</title>
+	<meta charset="utf-8">
+    <meta name="keywords" content="boostrap, responsive, html5, css3, jquery, theme, multicolor, parallax, retina, business" />
+    <meta name="author" content="Magentech">
+    <meta name="robots" content="index, follow" />   
+	<!-- Mobile specific metas
+	============================================ -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- Favicon
+	============================================ -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="ico/favicon.png">	
+	<!-- Google web fonts
+	============================================ -->
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	    <!-- Libs CSS
+	============================================ -->
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+	<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- 	<link href="js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+  <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="css/themecss/lib.css" rel="stylesheet">
+	<link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet">	 -->
+	<!-- Theme CSS
+	============================================ -->
+  <!-- <link href="css/themecss/so_megamenu.css" rel="stylesheet"> -->
+  <!-- <link href="css/themecss/so-categories.css" rel="stylesheet"> -->
+	<!-- <link href="css/themecss/so-listing-tabs.css" rel="stylesheet"> -->
+<!-- 	<link href="css/footer1.css" rel="stylesheet">
+	<link href="css/header1.css" rel="stylesheet"> -->
+	<link id="color_scheme" href="css/theme.css" rel="stylesheet">		
+	<!-- <link href="css/responsive.css" rel="stylesheet">  	 -->
+</head>
+
+<body class="res layout-subpage banners-effect-6">
+  <div id="wrapper" class="wrapper-full ">
+	<!-- Main Container  -->
+		<div class="main-container container">	
+			<div class="row">
+				<!--Left Part Start -->
+				<aside class="col-sm-4 col-md-3" id="column-left">
+				</aside>
+				<!--Left Part End -->
+				<!--Middle Part Start-->
+				<div id="content" class="col-md-9 col-sm-8">
+					<div class="products-category">
+						<!-- Filters -->
+						<div class="product-filter filters-panel">
+							<div class="row">
+								<div class="col-md-2 visible-lg">
+									<div class="view-mode">
+										<div class="list-view">
+											<button class="btn btn-default grid active" data-view="grid" data-toggle="tooltip"  data-original-title="Grid"><i class="fa fa-th"></i></button>
+											<button class="btn btn-default list" data-view="list" data-toggle="tooltip" data-original-title="List"><i class="fa fa-th-list"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products-list row grid">
+						<div class="product-layout col-md-4 col-sm-6 col-xs-12">
+							<div class="product-item-container">
+								<div class="left-block">
+
+								</div>			
+								<div class="right-block">
+									<div class="caption">
+										<div class="description item-desc hidden">
+
+										</div>
+									</div>				
+								</div><!-- right block -->
+							</div>
+						</div>
+						<div class="clearfix visible-xs-block"></div>							
+					</div>
+				</div>				
+			</div>		
+		</div>
+			<!--Middle Part End-->
+	</div>
+	<!-- //Main Container -->
+<!-- Include Libs & Plugins
+	============================================ -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script> -->
+    <!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+		<!-- <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script> -->
+		<!-- <script type="text/javascript" src="js/themejs/libs.js"></script> -->
+		<!-- <script type="text/javascript" src="js/themejs/jquery_cookie.js"></script> -->
+		<!-- <script type="text/javascript" src="js/unveil/jquery.unveil.js"></script> -->
+<!-- 		<script type="text/javascript" src="js/countdown/jquery.countdown.min.js"></script>
+		<script type="text/javascript" src="js/dcjqaccordion/jquery.dcjqaccordion.2.8.min.js"></script> -->
+		<!-- <script type="text/javascript" src="js/datetimepicker/moment.js"></script> -->
+		<!-- <script type="text/javascript" src="js/datetimepicker/bootstrap-datetimepicker.min.js"></script> -->
+		<!-- <script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>	 -->
+	<!-- Theme files
+	============================================ -->
+<!-- 	<script type="text/javascript" src="js/themejs/so_megamenu.js"></script>
+	<script type="text/javascript" src="js/themejs/addtocart.js"></script> -->
+	<!-- <script type="text/javascript" src="js/themejs/application.js"></script> -->
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/themejs/jquery_cookie.js"></script>	    
+	<script type="text/javascript">
+		function display(view) {
+			$('.products-list').removeClass('list grid').addClass(view);
+			$('.list-view .btn').removeClass('active');
+			if(view == 'list') {
+				$('.products-list .product-layout').addClass('col-lg-12');
+				$('.products-list .product-layout .left-block').addClass('col-md-4');
+				$('.products-list .product-layout .right-block').addClass('col-md-8');
+				$('.products-list .product-layout .item-desc').removeClass('hidden')
+				$('.list-view .' + view).addClass('active');
+				$.cookie('display', 'list'); 
+			}else{
+				$('.products-list .product-layout').removeClass('col-lg-12');
+				$('.products-list .product-layout .left-block').removeClass('col-md-4');
+				$('.products-list .product-layout .right-block').removeClass('col-md-8');
+				$('.products-list .product-layout .item-desc').addClass('hidden');
+				$('.list-view .' + view).addClass('active');
+				$.cookie('display', 'grid');
+			}
+		}	
+		$(document).ready(function () {
+			
+			// Click Button
+			$('.list-view .btn').each(function() {
+				var ua = navigator.userAgent,
+				event = (ua.match(/iPad/i)) ? 'touchstart' : 'click';
+				$(this).bind(event, function() {
+					$(this).addClass(function() {
+						if($(this).hasClass('active')) return ''; 
+						return 'active';
+					});
+					$(this).siblings('.btn').removeClass('active');
+					$catalog_mode = $(this).data('view');
+					display($catalog_mode);
+				});
+				
+			});
+		});		
+	// Check if Cookie exists
+		if($.cookie('display')){
+			view = $.cookie('display');
+		}else{
+			view = 'grid';
+		}
+		if(view) display(view);
+	</script> 
+</body>
+</html>

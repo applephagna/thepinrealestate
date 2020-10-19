@@ -1,0 +1,40 @@
+.filters-panel {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-color: #DDDDDD;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  margin-top: 30px; }
+  .filters-panel .list-view {
+    text-align: left;
+    margin-top: 4px; }
+    .filters-panel .list-view button.btn {
+      border-radius: 0;
+      padding: 3px 8px;
+      color: #666; }
+      .filters-panel .list-view button.btn.active {
+        background: #F4A137;
+        color: #fff;
+        border-color: #F4A137;
+        box-shadow: none; }
+        .filters-panel .list-view button.btn.active:hover {
+          background: #F4A137;
+          color: #fff; }
+      .filters-panel .list-view button.btn:hover {
+        color: #F4A137;
+        background: transparent;
+        border-color: #F4A137; }
+      .filters-panel .list-view button.btn:focus {
+        border-radius: 0;
+        border-color: #F4A137;
+        outline: none; }
+    .filters-panel .list-view .fa {
+      font-size: 14px; }
+  .filters-panel.product-filter-bottom {
+    margin-top: 15px; }
+  .filters-panel .box-pagination ul {
+    margin: 4px 0 0 0;
+    height: 27px; }
+
+.filters-panel select {
+  border-radius: 0; }

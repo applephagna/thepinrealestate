@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "..\\fleetcart25"
+		},
+		{
+			"path": "..\\blog-final"
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2,
+		"git.ignoreLimitWarning": true,
+		"bladeFormatter.format.indentSize": 2
+	}
+}
